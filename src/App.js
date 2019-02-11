@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import styled from 'styled-components';
 import './App.css';
 import StopButton from "./components/StopButton";
+import Timer from "./components/Timer";
 
 class App extends Component {
 
@@ -34,6 +35,7 @@ class App extends Component {
     return (
         <App>
           <FlexBox>
+              <Timer/>
             <StopBox>
                 <StopButton isPlay={true}/>
             </StopBox>
